@@ -67,5 +67,29 @@ body {
     cursor: pointer;
 }
 
-background-color: dodgerblue;
+.links:hover {
+    background-color: dodgerblue;
+}
+
+.artical:hover {
+    background-color: dodgerblue;
+}
+
+#Videos {
+    padding: 50p;
+    text-align: center;
+}
+
+#Work {
+    padding: 50p;
+    text-align: center;
+}
+
+#Writing {
+    padding: 50p;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
