@@ -31,6 +31,10 @@ body {
 #bio {
     padding: 50p;
     text-align: center;
+    font-size: 30px;
+    height: 800px;
+    width: 100%;
+    background-color: azure;
 }
 
 .welcome-inner {
@@ -75,19 +79,28 @@ body {
     background-color: dodgerblue;
 }
 
-#Videos {
+#App {
     padding: 50p;
     text-align: center;
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+
 }
 
-#Work {
+#Games {
     padding: 50p;
     text-align: center;
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+}
+img{
+    transition: transform .2s;   
 }
 
-#Writing {
-    padding: 50p;
-    text-align: center;
+img:hover{
+    transform: scale(0.9);
 }
 
 html {
